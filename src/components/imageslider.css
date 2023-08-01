@@ -1,0 +1,25 @@
+.image-slider {
+    overflow: hidden;
+    position: relative;
+    width: 65%;
+    height: 763px; /* Set the height as needed */
+    margin-top: -661px;
+    margin-left: 675px;
+  }
+  
+  .slider-content {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slider-item {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  
+  .slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
